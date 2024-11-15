@@ -8,15 +8,15 @@ export default function Home(){
                 <div className='mb-2'>
                 <p className='text-xl font-medium'>Recently Opened</p>
                </div>
-               <div className='flex gap-2'>
+               <div className='flex gap-1 justify-between'>
                 <div className='border p-2 w-40 h-32 rounded-lg'>
                     <FontAwesomeIcon className='text-xl p-2 rounded-lg bg-blue-500 text-white' icon={faPenToSquare}/>
-                    <p className='text-xl mb-2 mt-5'>NodeJs-Project</p>
+                    <p className='text-base mb-2 mt-5'>NodeJs-Project</p>
                     <p className='text-sm'><FontAwesomeIcon className='text-blue-500 mr-2' icon={faClock}/>10/10 Completed</p>
                 </div>
                  <div className='border  p-2 w-40 h-32 rounded-lg'>
                      <FontAwesomeIcon className='p-2 rounded-lg text-xl bg-green-500 text-white' icon={faPenToSquare}/>
-                     <p className='text-xl mb-2 mt-5'>React-Project</p>
+                     <p className='text-base mb-2 mt-5'>React-Project</p>
                      <p className='text-sm'><FontAwesomeIcon className='mr-2' icon={faClock}/> 10/20 progress</p>
                 </div>
                </div>
@@ -45,6 +45,23 @@ export default function Home(){
                         <p className='text-sm'>You can create new portifolio task</p>
                      </div>
                     </div>
+                </div>
+            </div>
+            <div className='ml-3 text-lg font-medium mt-2'>Assign to me</div>  
+            <div className='flex flex-col mb-20 mt-3 gap-2'>
+               <div className='flex pl-3 bg-white py-2'>
+                 <input className='mr-2 text-purple-500 w-6 h-6 mt-3' type="checkbox" />
+                 <div className='text-lg'>
+                    <p className=''>Amazon</p>
+                    <p className='text-sm'>Create Mobile Responsive, let's get this project</p>
+                 </div>
+                </div>
+                <div className='flex pl-3 bg-white py-2'>
+                 <input className='mr-2 w-6 h-6 mt-3' type="checkbox" />
+                 <div className='text-lg'>
+                    <p className=''>Amazon</p>
+                    <p className='text-sm'>Create Mobile Responsive, let's get this project</p>
+                 </div>
                 </div>
             </div>
         </div>
